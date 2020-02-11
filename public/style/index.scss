@@ -1,3 +1,5 @@
+@import 'src/legacy/ui/public/styles/styling_constants';
+
 .canvasCsv {
   position: relative;
 
@@ -17,7 +19,7 @@
   .canvasCsv__button {
     position: absolute;
     right: 16px;
-    top: 72px;
+    top: 68px;
     transition: opacity $euiAnimSpeedFast $euiAnimSlightResistance;
     transition-delay: $euiAnimSpeedNormal;
   }
