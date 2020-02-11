@@ -1,6 +1,14 @@
-# canvas-multi-filter
+# canvas-csv-renderer
 
-> Adds a multiple filter element to Canvas that allows users filters for exact values from multiple fields
+> Adds a CSV renderer with options to export a datatable as a CSV file
+
+#### Example
+```
+filters
+| demodata
+| table
+| render as="csv"
+```
 
 ---
 
