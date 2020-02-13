@@ -4,7 +4,7 @@
   "description": "Adds a CSV renderer with options to export a datatable as a CSV file",
   "main": "index.js",
   "kibana": {
-    "version": "7.5.2",
+    "version": "7.3.1",
     "templateVersion": "1.0.0"
   },
   "license": "Unlicense",
