@@ -1,6 +1,6 @@
 {
   "name": "canvas-csv-renderer",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Adds a CSV renderer with options to export a datatable as a CSV file",
   "main": "index.js",
   "kibana": {
