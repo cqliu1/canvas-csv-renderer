@@ -28,7 +28,7 @@ export default function(kibana) {
       // Tell Kibana that the files in `/public` should be loaded into the
       // browser only when the user is in the Canvas app.
       canvas: ['plugins/canvas-csv-renderer'],
-      styleSheetPaths: [resolve(__dirname, 'public/style/index.scss'), resolve(__dirname, 'public/style/index.css')].find(p => existsSync(p))],
+      styleSheetPaths: [resolve(__dirname, 'public/style/index.scss'), resolve(__dirname, 'public/style/index.css')].find(p => existsSync(p)),
     },
 
     config(Joi) {
